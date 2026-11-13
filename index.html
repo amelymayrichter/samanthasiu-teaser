@@ -4,42 +4,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Samantha Siu — A New Chapter</title>
-  <meta name="description" content="Samantha Siu — new website coming soon.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+  <meta name="description" content="Samantha Siu — new website coming soon. Looking for Samantha Siu New York? Explore the collection.">
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
     html,body{height:100%}
-    body{font-family:Manrope,sans-serif;color:#171717;background:#fff;-webkit-font-smoothing:antialiased}
-    .wrap{display:flex;min-height:100vh}
-    .text{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:64px 32px 96px;position:relative}
+    body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#1a1a1a;background:#faf9f5;-webkit-font-smoothing:antialiased}
+    main{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:96px 24px 120px;position:relative}
     h1{font-size:0;line-height:0}
-    .logo{width:min(390px,80vw);height:auto;display:block}
-    .rule{width:64px;height:1px;background:#d6c7b4;margin:40px auto}
-    .kicker{font-size:18px;letter-spacing:.2em;text-transform:uppercase}
-    .sub{margin-top:24px;font-size:16px;color:#61697a}
-    .contact{position:absolute;bottom:32px;left:0;right:0;font-size:15px}
-    .contact a{color:#171717;text-decoration:none}
-    .contact a:hover{text-decoration:underline}
-    .image{flex:1;background:#2a2a2a url("hero.jpg") center/cover no-repeat;filter:grayscale(100%)}
-    @media (max-width:800px){
-      .wrap{flex-direction:column-reverse}
-      .image{min-height:55vh}
-      .text{padding:56px 24px 88px}
-    }
+    .logo{width:min(530px,84vw);height:auto;display:block}
+    .rule{width:28px;height:1px;background:#b39a6b;margin:46px auto 34px}
+    .kicker{font-size:12px;letter-spacing:.42em;text-transform:uppercase;color:#6b6b6b;margin-right:-.42em}
+    .sub{margin-top:24px;font-size:13px;letter-spacing:.02em;color:#333}
+    .divider{width:min(308px,70vw);height:1px;background:#dcdad4;margin:48px auto 34px}
+    .ask{font-size:12px;color:#444}
+    .btn{display:inline-flex;align-items:center;gap:16px;margin-top:20px;padding:13px 21px;border:1px solid #b39a6b;color:#1a1a1a;text-decoration:none;font-size:10px;letter-spacing:.22em;text-transform:uppercase;transition:background .2s,color .2s}
+    .btn svg{width:16px;height:8px;transition:transform .2s}
+    .btn:hover{background:#b39a6b;color:#fff}
+    .btn:hover svg{transform:translateX(3px)}
+    .contact{position:absolute;bottom:28px;left:0;right:0;font-size:9px;letter-spacing:.14em}
+    .contact a{color:#555;text-decoration:none}
+    .contact a:hover{color:#1a1a1a}
+    @media (min-width:1600px){.kicker{font-size:13px}.sub,.ask{font-size:14px}}
+    @media (max-width:600px){.kicker{font-size:11px}.sub,.ask{font-size:13px}.btn{font-size:10px}.contact{font-size:10px}}
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <section class="text">
-      <h1><img class="logo" src="logo.svg" alt="Samantha Siu"></h1>
-      <div class="rule" aria-hidden="true"></div>
-      <p class="kicker">A new chapter</p>
-      <p class="sub">New website coming soon.</p>
-      <p class="contact"><a href="mailto:info@samanthasiu.com">info@samanthasiu.com</a></p>
-    </section>
-    <section class="image" role="img" aria-label="Hand-carving a lion sculpture in wax"></section>
+  <main>
+    <h1><img class="logo" src="logo.svg" alt="Samantha Siu"></h1>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="kicker">A new chapter</p>
+    <p class="sub">New website coming soon.</p>
+    <div class="divider" aria-hidden="true"></div>
+    <p class="ask">Looking for Samantha Siu New York?</p>
+    <a class="btn" href="https://samanthasiunewyork.com/">Explore the collection
+      <svg viewBox="0 0 16 8" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><path d="M0 4h15M11.5 .5 15 4l-3.5 3.5"/></svg>
+    </a>
+    <p class="contact"><a href="mailto:info@samanthasiu.com">info@samanthasiu.com</a></p>
   </main>
 </body>
 </html>
